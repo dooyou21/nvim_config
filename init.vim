@@ -6,6 +6,7 @@ set autoindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set clipboard=unnamed " use OS clipboard
 
 autocmd FileType typescript,typescriptreact,javascript,javascriptreact,html,xml,svg,css setlocal shiftwidth=2 tabstop=2 expandtab
 
